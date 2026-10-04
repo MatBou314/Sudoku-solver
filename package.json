@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sudoku": "^0.0.3",
+    "sudoku-gen": "^1.0.3"
+  }
+}
