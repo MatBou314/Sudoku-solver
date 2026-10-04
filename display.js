@@ -1,16 +1,4 @@
-import { newBoard } from './board.js';
-
-const SQUARE_OF_IDX = new Uint8Array([
-    0, 0, 0, 1, 1, 1, 2, 2, 2,
-    0, 0, 0, 1, 1, 1, 2, 2, 2,
-    0, 0, 0, 1, 1, 1, 2, 2, 2,
-    3, 3, 3, 4, 4, 4, 5, 5, 5,
-    3, 3, 3, 4, 4, 4, 5, 5, 5,
-    3, 3, 3, 4, 4, 4, 5, 5, 5,
-    6, 6, 6, 7, 7, 7, 8, 8, 8,
-    6, 6, 6, 7, 7, 7, 8, 8, 8,
-    6, 6, 6, 7, 7, 7, 8, 8, 8,
-])
+import { newBoard, SQUARE_OF_IDX } from './board.js';
 
 const SQUARE_POSITION = new Uint8Array([
     0, 1, 2, 0, 1, 2, 0, 1, 2,
