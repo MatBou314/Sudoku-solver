@@ -1,6 +1,6 @@
 import { getSudoku } from 'sudoku-gen';
 
-function getRandBoard(mode="medium") {
+function getRandBoard(mode="hard") {
     const sudoku = getSudoku(mode);
     return  Uint8Array.from(sudoku.puzzle, char => char === '-' ? 0 : Number(char));
 }
